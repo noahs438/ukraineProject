@@ -7,11 +7,6 @@ const postSchema = mongoose.Schema({
     creator: String,
     tags: [String],
     selectedFile: String,
-    // CAN REMOVE LIKE COUNT LATER ----------- OBVIOUSLY NOT USED FOR UKRAINE WEBSITE
-    likeCount: {
-        type: Number,
-        default: 0  // Set the default like count to 0
-    },
     // When were the posts created
     createdAt: {
         type: Date,
