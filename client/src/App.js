@@ -16,17 +16,17 @@ const App = () => {
 
     useEffect(() => {
         dispatch(getPosts());  // As soon as the action gets dispatched, we go to the posts reducer to handle the logic
-    }, [dispatch]);
+    }, [currentId, dispatch]);
 
     return (
         <Container maxWidth={"lg"}>
           <AppBar className={classes.appBar} position={"static"} color={"inherit"}>
-              <Typography className={classes.heading} variant={"h2"} align={"center"}>Memories</Typography>
+              <Typography className={classes.heading} variant={"h2"} align={"center"}>Housing</Typography>
               <img className={classes.image} src={memories} alt={"memories"} height={"60"}/>
           </AppBar>
             <Grow in>
                 <Container>
-                    <Grid container justifyContent={"space-between"} alignItems={"stretch"} spacing={3}>
+                    <Grid className={classes.mainContainer} container justifyContent={"space-between"} alignItems={"stretch"} spacing={3}>
                         <Grid item xs={12} sm={7}>
                             <Posts setCurrentId={setCurrentId} />
                         </Grid>
