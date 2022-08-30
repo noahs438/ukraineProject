@@ -2,12 +2,12 @@
 
 ![website](demoImage/website.png)
 
-UNFINISHED - Full stack web application built using MongoDB, Express, React and Node.js that helps Ukrainian refugees find temporary housing in Canada.
+Full stack web application built using MongoDB, Express, React and Node.js that helps Ukrainian refugees find temporary housing in Canada.
 
 Canadians who have homes with available rooms can post a short description of their home, along with other tags outlining constraints such as duration of the stay, number of rooms, number of bathrooms, and so on.
 These posts can be viewed by refuge seekers and the hosts can then be contacted to arrange the stay.
 
-While the application functions as intended, the account creation/authentication is still being worked on.
+UNFINISHED - While the application functions as intended, the account creation/authentication is still being worked on.
 
 ## Setup:
 - Fill in missing varaibles in the ```.env``` files for both the client and the server side of the app
