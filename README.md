@@ -7,7 +7,8 @@ Full stack web application built to help Ukrainian refugees find temporary housi
 Canadians who have homes with available rooms can post a short description of their home, along with other tags outlining constraints such as duration of the stay, number of rooms, number of bathrooms, and so on.
 These posts can be viewed by refuge seekers and the hosts can then be contacted to arrange the stay.
 
-UNFINISHED - While the application functions as intended, the account creation/authentication is still being worked on.
+UNFINISHED - CONCEPTUAL FLAW - NO WAY OF CONDUCTING BACKGROUND CHECKS
+- Given that it is impossible to know the true intentions of hosts posting on the application without conducting thorough background checks, the project cannot be deployed.
 
 ## Setup:
 - Fill in missing varaibles in the ```.env``` files for both the client and the server side of the app
